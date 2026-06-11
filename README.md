@@ -1,3 +1,2 @@
 # dotfiles
-My Linux Dotfiles .
-# dotfiles
+My Hyprland Dotfiles .

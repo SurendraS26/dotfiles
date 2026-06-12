@@ -19,6 +19,7 @@ echo "Stored in $HOME/backup.zip"
 cp -r $HOME/.config/hypr $HOME/Projects/dotfiles
 cp -r $HOME/.config/mako $HOME/Projects/dotfiles
 cp -r $HOME/.config/foot $HOME/Projects/dotfiles
+cp -r $HOME/.config/rofi $HOME/Projects/dotfiles
 echo "Files are copied."
 
 

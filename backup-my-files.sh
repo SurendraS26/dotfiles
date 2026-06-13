@@ -16,10 +16,13 @@ echo "Stored in $HOME/backup.zip"
 
 
 # COPY MY HYPR,MAKO,FOOT TO PROJECTS 
+cp -r $HOME/.config/btop $HOME/Projects/dotfiles
 cp -r $HOME/.config/hypr $HOME/Projects/dotfiles
 cp -r $HOME/.config/mako $HOME/Projects/dotfiles
 cp -r $HOME/.config/foot $HOME/Projects/dotfiles
 cp -r $HOME/.config/rofi $HOME/Projects/dotfiles
+cp -r $HOME/.config/btop $HOME/Projects/dotfiles
+cp -r $HOME/.config/cava $HOME/Projects/dotfiles
 echo "Files are copied."
 
 

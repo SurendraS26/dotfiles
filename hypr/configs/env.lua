@@ -10,7 +10,7 @@ hl.env("XCURSOR_SIZE", "24")
 hl.env("AQ_DRM_DEVICES", "/dev/dri/card0:/dev/dri/card1")
 
 -- GTK theme
-hl.env("GTK_THEME", "Flat-Remix-GTK-Cyan-Darkest")
+hl.env("GTK_THEME", "Nordic-darker")
 
 -- XDG Specifications ( Since you use uwsm dont need!! )
 -- hl.env("XDG_CURRENT_DESKTOP","Hyprland")

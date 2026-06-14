@@ -45,3 +45,4 @@ hl.window_rule({
 
 -- Apps rules for disabling that window bar
 
+-- under development

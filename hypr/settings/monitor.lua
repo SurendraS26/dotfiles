@@ -1,5 +1,5 @@
 
--- See https://wiki.hypr.land/Configuring/Basics/Monitors/
+-- My laptop screen
 hl.monitor({
     output   = "",
     mode     = "1920x1080@144.00Hz",

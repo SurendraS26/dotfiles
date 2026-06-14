@@ -1,4 +1,7 @@
+-- Input settings
 
+
+-- Input config
 hl.config({
     input = {
         kb_layout  = "us",
@@ -17,19 +20,27 @@ hl.config({
     },
 })
 
+
+-- Workspace scrolling vertical touchpad
 hl.gesture({
     fingers = 3,
     direction = "vertical",
     action = "workspace"
 })
 
--- Example per-device config
--- See https://wiki.hypr.land/Configuring/Advanced-and-Cool/Devices/ for more
+
+-- Device settings
 hl.device({
     name        = "epic-mouse-v1",
     sensitivity = -0.5,
 })
 
 
-hl.gesture({ fingers = 2, direction = "pinch", action = "cursorZoom", zoom_level = 2 })
+-- Screen zoom using touchpad
+hl.gesture({ 
+    fingers = 2, 
+    direction = "pinch", 
+    action = "cursorZoom", 
+    zoom_level = 1.5 
+})
 

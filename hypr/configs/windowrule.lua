@@ -40,5 +40,8 @@ hl.window_rule({
     float = true,
 })
 
+
+
+
 -- Apps rules for disabling that window bar
 

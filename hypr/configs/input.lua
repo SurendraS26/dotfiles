@@ -19,7 +19,7 @@ hl.config({
 
 hl.gesture({
     fingers = 3,
-    direction = "horizontal",
+    direction = "vertical",
     action = "workspace"
 })
 
@@ -29,4 +29,7 @@ hl.device({
     name        = "epic-mouse-v1",
     sensitivity = -0.5,
 })
+
+
+hl.gesture({ fingers = 2, direction = "pinch", action = "cursorZoom", zoom_level = 2 })
 

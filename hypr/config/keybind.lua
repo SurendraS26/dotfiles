@@ -123,10 +123,10 @@ hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = tr
 --- Window Resize keyboard ---
 ------------------------------
 
-hl.bind("ALT + right", hl.dsp.window.resize({ x = 50, y = 0, relative = true}), { repeating = true })
-hl.bind("ALT + left", hl.dsp.window.resize({ x = -50, y = 0, relative = true}), { repeating = true })
-hl.bind("ALT + up", hl.dsp.window.resize({ x = 0, y = -50, relative = true}), { repeating = true })
-hl.bind("ALT + down", hl.dsp.window.resize({ x = 0, y = 50, relative = true}), { repeating = true })
+hl.bind("SUPER + ALT + right", hl.dsp.window.resize({ x = 50, y = 0, relative = true}), { repeating = true })
+hl.bind("SUPER + ALT + left", hl.dsp.window.resize({ x = -50, y = 0, relative = true}), { repeating = true })
+hl.bind("SUPER + ALT + up", hl.dsp.window.resize({ x = 0, y = -50, relative = true}), { repeating = true })
+hl.bind("SUPER + ALT + down", hl.dsp.window.resize({ x = 0, y = 50, relative = true}), { repeating = true })
 
 
 ---------------------------------------

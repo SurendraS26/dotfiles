@@ -1,3 +1,17 @@
+local black   = "rgb(47, 52, 63)"
+local blue    = "rgb(39, 119, 255)"
+local brown   = "rgb(193, 125, 62)"
+local cyan    = "rgb(0, 188, 212)"
+local green   = "rgb(6, 162, 132)"
+local grey    = "rgb(108, 117, 125)"
+local magenta = "rgb(216, 27, 96)"
+local orange  = "rgb(253, 126, 20)"
+local red     = "rgb(236, 1, 1)"
+local teal    = "rgb(0, 150, 136)"
+local violet  = "rgb(124, 77, 255)"
+local white   = "rgb(250, 250, 250)"
+local yellow  = "rgb(255, 214, 0)"
+
 hl.config({
     general = {
         gaps_in  = 5,
@@ -6,8 +20,8 @@ hl.config({
         border_size = 2,
 
         col = {
-            active_border   = { colors = {"rgb(250,80,83)", "rgb(255,166,201)"}, angle = 45 },
-            inactive_border = "rgba(595959aa)",
+            active_border   = { colors = { magenta, magenta}, angle = 45 },
+            inactive_border = grey,
         },
 
         -- Set to true to enable resizing windows by clicking and dragging on borders and gaps

@@ -2,7 +2,6 @@
 -- Or execute your favorite apps at launch like this:
 --
 hl.on("hyprland.start", function () 
-hl.exec_cmd("mpvpaper -o 'no-audio --loop-playlist' ALL  ~/Videos/Wallpaper/lightforest.mp4")
 hl.exec_cmd("systemctl --user start hyprpolkitagent")
 end)
 

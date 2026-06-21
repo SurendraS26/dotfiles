@@ -17,7 +17,7 @@ hl.env("HYPRCURSOR_SIZE", "24")
 -----------------
 --- GTK Theme ---
 -----------------
-hl.env("GTK_THEME","Flat-Remix-GTK-Magenta-Darkest")
+hl.env("GTK_THEME","Flat-Remix-GTK-Cyan-Darkest")
 
 -----------------------
 --- Nvidia Specific ---

@@ -1,0 +1,32 @@
+# Global & Layout Options
+max-visible=5
+sort=-time
+output=
+anchor=bottom-right
+layer=top
+
+# Style Options
+font=monospace 10
+background-color=#1e1e2ecc
+text-color=#cdd6f4
+border-size=2
+border-color=#89b4fa
+border-radius=10
+progress-color=over #313244
+padding=15
+margin=10
+default-timeout=1500
+text-alignment=center
+
+#Interactivity
+on-button-left=invoke-default-action
+on-button-middle=none
+on-button-right=dismiss
+
+# Custom Criteria (e.g., Critical Alerts)
+[urgency=high]
+border-color=#f38ba8
+default-timeout=0
+
+# Icon-path
+icon-path=/usr/share/icons/Flat-Remix-Cyan-Dark

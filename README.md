@@ -1,2 +1,2 @@
-# Hyprland Dotfiles ( Flat-Remix ) 
+# Hyprland Dotfiles 
 

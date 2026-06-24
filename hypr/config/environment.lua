@@ -19,8 +19,15 @@ hl.env("HYPRCURSOR_SIZE", "24")
 -----------------
 hl.env("GTK_THEME","Flat-Remix-GTK-Cyan-Darkest")
 
+
 -----------------------
 --- Nvidia Specific ---
 -----------------------
 hl.env("LIBVA_DRIVER_NAME", "nvidia")
 hl.env("__GLX_VENDOR_LIBRARY_NAME", "nvidia")
+
+
+------------------------
+--- Electron support ---
+------------------------
+hl.env("ELECTRON_OZONE_PLATFORM_HINT", "auto")

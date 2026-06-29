@@ -5,20 +5,21 @@
     b-color: #000000FF;
     fg-color: #FFFFFFFF;
     fgp-color: #888888FF;
-    b-radius: 8px;
+    b-radius: 0px;
     g-padding: 8px;
     hl-color: #FFFFFFFF;
     hlt-color: #000000FF;
     alt-color: #111111FF;
     wbg-color: #000000CC;
     w-border: 2px solid;
-    w-border-color: #FFFFFFFF;
+    w-border-color: #00FFFF;
     w-padding: 12px;
 }
 
 configuration {
     modi: "drun";
     show-icons: true;
+    icon-theme: "Flat-Remix-Cyan-Dark";
     display-drun: "";
 }
 

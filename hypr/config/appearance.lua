@@ -42,7 +42,7 @@ hl.config({
         inactive_opacity = 1.0,
 
         glow = {
-            enabled = false,
+            enabled = true,
             range = 10,
             color = 0xee1a1a1a
         },
@@ -56,8 +56,8 @@ hl.config({
 
         blur = {
             enabled   = true,
-            size      = 10,
-            passes    = 1,
+            size      = 20,
+            passes    = 3,
             vibrancy  = 0.1696,
         },
     },

@@ -17,7 +17,7 @@ hl.env("HYPRCURSOR_SIZE", "24")
 -----------------
 --- GTK Theme ---
 -----------------
-hl.env("GTK_THEME","Flat-Remix-GTK-Cyan-Darkest")
+hl.env("GTK_THEME","Flat-Remix-GTK-Magenta-Darkest")
 
 
 -----------------------
@@ -27,7 +27,21 @@ hl.env("LIBVA_DRIVER_NAME", "nvidia")
 hl.env("__GLX_VENDOR_LIBRARY_NAME", "nvidia")
 
 
+---------------------------------
+--- Toolkit backend variables ---
+---------------------------------
+hl.env("GDK_BACKEND", "wayland,x11,*")
+hl.env("QT_QPA_PLATFORM", "wayland;xcb")
+hl.env("SDL_VIDEODRIVER", "wayland")
+hl.env("CLUTTER_BACKEND", "wayland")
+
 ------------------------
 --- Electron support ---
 ------------------------
-hl.env("ELECTRON_OZONE_PLATFORM_HINT", "auto")
+hl.env("ELECTRON_OZONE_PLATFORM_HINT", "wayland")
+
+
+-------------------
+--- Qt platform ---
+-------------------
+hl.env("QT_QPA_PLATFORMTHEME","qt6ct")

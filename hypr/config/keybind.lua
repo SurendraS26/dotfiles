@@ -1,9 +1,11 @@
 -- App binding's
 local terminal    = "foot"
-local fileManager = "dolphin"
+local fileManager = "pcmanfm"
 local menu        = "rofi -show"
 local web         = "chromium"
 local lock        = "hyprlock"
+local office      = "libreoffice"
+local snapshot    = 'grim -g "$(slurp -d)" - | wl-copy'
 
 ---------------
 --- Desktop ---
@@ -36,6 +38,9 @@ hl.bind(mainMod .. " + Z", hl.dsp.window.drag())
 -- Lock screen
 hl.bind(mainMod .. " + L", hl.dsp.exec_cmd(lock))
 
+-- Snapshot
+hl.bind("Print", hl.dsp.exec_cmd(snapshot))
+
 ---------------
 -- Shortcut ---
 ---------------
@@ -52,6 +57,18 @@ hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(menu))
 -- Web browser
 hl.bind(mainMod .. " + W", hl.dsp.exec_cmd(web))
 
+-- Office
+hl.bind(mainMod .. " + O", hl.dsp.exec_cmd(office))
+
+
+----------------------
+--- Switch windows ---
+----------------------
+
+hl.bind("SUPER + Tab", function()
+    hl.dispatch(hl.dsp.window.cycle_next())    -- Change focus to another window
+    hl.dispatch(hl.dsp.window.bring_to_top()) -- Bring it to the top
+end)
 
 --------------------
 --- Focus window ---
@@ -142,4 +159,4 @@ hl.bind("SUPER + SHIFT + down",  hl.dsp.window.move({ direction = "down" }))
 ------------------------
 --- Grouping windows ---
 ------------------------
----hl.bind(mainMod .. " + G", hl.dsp.group.toggle({ action = "toggle"}))
+hl.bind(mainMod .. " + G", hl.dsp.group.toggle({ action = "toggle"}))

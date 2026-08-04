@@ -1,12 +1,19 @@
 
 hl.config({
     misc = {
-        force_default_wallpaper = 1, 
-        disable_hyprland_logo   = false, 
+        force_default_wallpaper = 0, 
+        disable_hyprland_logo   = true,
+        disable_splash_rendering = true,
+        background_color = 0x111111, 
     	vrr = false,
 	},
 
     xwayland = {
-    force_zero_scaling = true
-  	}
+        force_zero_scaling = true,
+        enabled = true,
+  	},
+    
+    opengl = {
+        nvidia_anti_flicker = true,
+    }
 })

@@ -5,6 +5,7 @@ local menu        = "rofi -show"
 local web         = "chromium"
 local lock        = "hyprlock"
 local office      = "libreoffice"
+local emoji       = "emote"
 local snapshot    = 'grim -g "$(slurp -d)" - | wl-copy'
 
 ---------------
@@ -60,6 +61,8 @@ hl.bind(mainMod .. " + W", hl.dsp.exec_cmd(web))
 -- Office
 hl.bind(mainMod .. " + O", hl.dsp.exec_cmd(office))
 
+-- Emote
+hl.bind(mainMod .. " + T", hl.dsp.exec_cmd(emoji))
 
 ----------------------
 --- Switch windows ---

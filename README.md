@@ -5,7 +5,7 @@ i'am still working on this Hyprland config.
  
 # Hyprtoolkit colors
 
-'''
+```
 // BLUE THEME
 background = 0xFF000000
 base = 0xFF162035
@@ -24,7 +24,8 @@ font_family = Sans Serif
 font_family_monospace = monospace
 rounding_large = 10
 rounding_small = 5
-
+```
+```
 // BROWN THEME
 background = 0xFF000000
 base = 0xFF2d2015
@@ -43,7 +44,8 @@ font_family = Sans Serif
 font_family_monospace = monospace
 rounding_large = 10
 rounding_small = 5
-
+```
+```
 // CYAN THEME
 background = 0xFF000000
 base = 0xFF162035
@@ -62,7 +64,8 @@ font_family = Sans Serif
 font_family_monospace = monospace
 rounding_large = 10
 rounding_small = 5
-
+```
+```
 // GREEN THEME
 background = 0xFF000000
 base = 0xFF162015
@@ -81,7 +84,8 @@ font_family = Sans Serif
 font_family_monospace = monospace
 rounding_large = 10
 rounding_small = 5
-
+```
+```
 // GREY THEME
 background = 0xFF000000
 base = 0xFF202020
@@ -100,7 +104,8 @@ font_family = Sans Serif
 font_family_monospace = monospace
 rounding_large = 10
 rounding_small = 5
-
+```
+```
 // MAGENTA THEME
 background = 0xFF000000
 base = 0xFF2d1620
@@ -119,7 +124,8 @@ font_family = Sans Serif
 font_family_monospace = monospace
 rounding_large = 10
 rounding_small = 5
-
+```
+```
 // ORANGE THEME
 background = 0xFF000000
 base = 0xFF2d1f0f
@@ -138,7 +144,8 @@ font_family = Sans Serif
 font_family_monospace = monospace
 rounding_large = 10
 rounding_small = 5
-
+```
+```
 // RED THEME
 background = 0xFF000000
 base = 0xFF2d1515
@@ -157,7 +164,8 @@ font_family = Sans Serif
 font_family_monospace = monospace
 rounding_large = 10
 rounding_small = 5
-
+```
+```
 // TEAL THEME
 background = 0xFF000000
 base = 0xFF152a28
@@ -176,7 +184,8 @@ font_family = Sans Serif
 font_family_monospace = monospace
 rounding_large = 10
 rounding_small = 5
-
+```
+```
 // VIOLET THEME
 background = 0xFF000000
 base = 0xFF201520
@@ -195,7 +204,8 @@ font_family = Sans Serif
 font_family_monospace = monospace
 rounding_large = 10
 rounding_small = 5
-
+```
+```
 // WHITE THEME
 background = 0xFF000000
 base = 0xFF2d2d2d
@@ -214,7 +224,8 @@ font_family = Sans Serif
 font_family_monospace = monospace
 rounding_large = 10
 rounding_small = 5
-
+```
+```
 // YELLOW THEME
 background = 0xFF000000
 base = 0xFF2d2d15
@@ -233,4 +244,4 @@ font_family = Sans Serif
 font_family_monospace = monospace
 rounding_large = 10
 rounding_small = 5
-'''
+```

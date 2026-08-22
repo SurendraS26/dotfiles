@@ -17,10 +17,10 @@ hl.config({
         gaps_in  = 5,
         gaps_out = 10,
 
-        border_size = 3,
+        border_size = 0,
 
         col = {
-            active_border   = { colors = { cyan , green }, angle = 45 },
+            active_border   = { colors = { white , grey }, angle = 45 },
             inactive_border = grey,
         },
 
@@ -56,7 +56,7 @@ hl.config({
 
         blur = {
             enabled   = false,
-            size      = 20,
+            size      = 5,
             passes    = 3,
             vibrancy  = 0.1696,
         },

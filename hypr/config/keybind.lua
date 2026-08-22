@@ -7,6 +7,7 @@ local lock        = "hyprlock"
 local office      = "libreoffice"
 local emoji       = "emote"
 local snapshot    = 'grim -g "$(slurp -d)" - | wl-copy'
+local calculator  = 'foot qalc'
 
 ---------------
 --- Desktop ---
@@ -64,6 +65,8 @@ hl.bind(mainMod .. " + O", hl.dsp.exec_cmd(office))
 -- Emote
 hl.bind(mainMod .. " + T", hl.dsp.exec_cmd(emoji))
 
+-- Calculator
+hl.bind("F12", hl.dsp.exec_cmd(calculator))
 ----------------------
 --- Switch windows ---
 ----------------------

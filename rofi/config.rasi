@@ -19,7 +19,7 @@
 configuration {
     modi: "drun";
     show-icons: true;
-    icon-theme: "Flat-Remix-Magenta-Dark";
+    icon-theme: "Flat-Remix-Black-Dark";
     display-drun: "";
 }
 

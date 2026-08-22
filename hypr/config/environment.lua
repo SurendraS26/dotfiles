@@ -17,7 +17,7 @@ hl.env("HYPRCURSOR_SIZE", "24")
 -----------------
 --- GTK Theme ---
 -----------------
-hl.env("GTK_THEME","Flat-Remix-GTK-Cyan-Darkest")
+hl.env("GTK_THEME","Flat-Remix-GTK-White-Darkest")
 
 
 -----------------------
@@ -38,7 +38,7 @@ hl.env("CLUTTER_BACKEND", "wayland")
 ------------------------
 --- Electron support ---
 ------------------------
-hl.env("ELECTRON_OZONE_PLATFORM_HINT", "wayland")
+hl.env("ELECTRON_OZONE_PLATFORM_HINT", "auto")
 
 
 -------------------

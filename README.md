@@ -1,6 +1,7 @@
 # Hyprland Dotfiles
 
-A simple, ready-to-use, **beginner-edition** dotfiles setup for [Hyprland](https://hyprland.org/) — configured with Hyprland's newer **Lua** config format. Includes a minimal terminal, notification daemon, and app launcher, one-command install/backup scripts, and a set of pre-built Hyprtoolkit color themes.
+A Minimal Hyprland config on the new Lua format. foot, mako, rofi, hyprlock — nothing extra. One-command install/backup, 12 Hyprtoolkit palettes.
+Better than MacOS and Window's , fuck em use my dotfiles.
 
 ![Screenshot](https://github.com/SurendraS26/dotfiles/raw/main/assets/pics/two.png)
 

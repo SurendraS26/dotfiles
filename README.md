@@ -190,8 +190,9 @@ To switch themes, replace the contents of `hypr/hyprtoolkit.conf` with the value
 
 ## License
 
-No license specified yet — feel free to reach out to the repo owner before reusing.
+```
+```
 
 ## Contributing
 
-This is a personal dotfiles repo, but issues and suggestions are welcome via [GitHub Issues](https://github.com/SurendraS26/dotfiles/issues).
+This is a my personal dotfiles repo, but issues and suggestions are welcome via [GitHub Issues](https://github.com/SurendraS26/dotfiles/issues).

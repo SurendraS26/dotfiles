@@ -7,7 +7,7 @@ local lock        = "hyprlock"
 local office      = "libreoffice"
 local snapshot    = 'grim -g "$(slurp -d)" - | wl-copy'
 local calculator  = 'foot qalc'
-local emoji       = 'emote' 
+local emoji       = 'emote'
 
 ---------------
 --- Desktop ---
@@ -67,6 +67,15 @@ hl.bind("F12", hl.dsp.exec_cmd(calculator))
 
 -- Emoji
 hl.bind(mainMod .. " + T", hl.dsp.exec_cmd(emoji))
+
+-- GameMode
+hl.bind("F9", function()
+	hl.dispatch(hl.dsp.exec_cmd("pkill awww-daemon"))
+	hl.dispatch(hl.dsp.exec_cmd("notify-send Launching Gamemode"))
+        hl.dispatch(hl.dsp.exec_cmd("paplay $HOME/.config/hypr/wav/gamemode.wav &"))
+	hl.dispatch(hl.dsp.exec_cmd("zenity --question --text Gamemode?? --window-icon=/usr/share/icons/hicolor/symbolic/apps/mpv-symbolic.svg  && steam && awww-daemon || awww-daemon"))
+end)
+
 
 ----------------------
 --- Switch windows ---

@@ -19,7 +19,7 @@ chmod +x backup-files.sh
 ./backup-files.sh
 ```
 ### Apps & shortcuts
-
+```
  `SUPER + Q` -  Open terminal (`foot`) |
  `SUPER + E` -  Open file manager (`pcmanfm`) |
  `SUPER + R` -  Open app launcher (`rofi -show`) |
@@ -28,9 +28,9 @@ chmod +x backup-files.sh
  `SUPER + T` -  Open emoji picker (`emote`) |
  `F12`       -  Open calculator (`foot qalc`) |
  `Print`     -  Screenshot region → clipboard (`grim` + `slurp` + `wl-copy`) |
-
+```
 ### Window management
-
+```
  `SUPER + C` -  Close focused window 
  `SUPER + F` -  Toggle fullscreen 
  `SUPER + V` - Toggle floating 
@@ -46,23 +46,23 @@ chmod +x backup-files.sh
  `SUPER + ALT + ←/→/↑/↓` -  Resize window 
  `SUPER + mouse:272` -  Drag window with mouse 
  `SUPER + mouse:273` -  Resize window with mouse 
-
+```
 ### Workspaces
-
+```
  `SUPER + 0-9` - Switch to workspace `0-9` 
  `SUPER + SHIFT + 0-9` - Move window to workspace `0-9` 
  `SUPER + S` - Toggle special workspace `magic` 
  `SUPER + SHIFT + S` - Move window to special workspace `magic` 
  `SUPER + mouse wheel` - Switch workspace 
-
+```
 ### Media & system keys
-
+```
 | `XF86AudioRaiseVolume` / `XF86AudioLowerVolume` | Volume up/down (5%) |
 | `XF86AudioMute` / `XF86AudioMicMute` | Mute speaker/mic |
 | `XF86MonBrightnessUp` / `XF86MonBrightnessDown` | Brightness up/down (5%) |
 | `XF86AudioNext` / `XF86AudioPrev` | Next/previous track |
 | `XF86AudioPlay` / `XF86AudioPause` | Play/pause |
-
+```
 ### Touchpad gestures
 
 | Gesture | Action |

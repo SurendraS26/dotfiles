@@ -97,10 +97,6 @@ To switch themes, replace the contents of `hypr/hyprtoolkit.conf` with the value
 - `monitor.lua` is hardcoded to `eDP-1 @ 1920x1080@144`; update this to match your own display(s).
 - Window rules suppress app "maximize" requests and fix an XWayland drag-and-drop edge case by default.
 
-## License
-
-```
-```
 
 ## Contributing
 

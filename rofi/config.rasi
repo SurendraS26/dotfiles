@@ -5,7 +5,7 @@
     b-color: #000000FF;
     fg-color: #FFFFFFFF;
     fgp-color: #888888FF;
-    b-radius: 0px;
+    b-radius: 10px;
     g-padding: 8px;
     hl-color: #FFFFFFFF;
     hlt-color: #000000FF;
@@ -19,7 +19,7 @@
 configuration {
     modi: "drun";
     show-icons: true;
-    icon-theme: "Flat-Remix-Cyan-Dark";
+    icon-theme: "Flat-Remix-Magenta-Dark";
     display-drun: "";
 }
 

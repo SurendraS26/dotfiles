@@ -6,6 +6,7 @@ local web         = "chromium"
 local lock        = "hyprlock"
 local office      = "libreoffice"
 local snapshot    = 'grim -g "$(slurp -d)" - | wl-copy'
+local cropshot    = 'grim -g "$(slurp)" - | swappy -f -'
 local calculator  = 'foot qalc'
 local emoji       = 'emote'
 
@@ -39,6 +40,9 @@ hl.bind(mainMod .. " + Z", hl.dsp.window.drag())
 
 -- Lock screen
 hl.bind(mainMod .. " + L", hl.dsp.exec_cmd(lock))
+
+-- Cropshot
+hl.bind(mainMod .. " + Print",hl.dsp.exec_cmd(cropshot))
 
 -- Snapshot
 hl.bind("Print", hl.dsp.exec_cmd(snapshot))

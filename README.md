@@ -2,7 +2,7 @@
 
 A simple beginner edition dotfiles for hyprland.
 
-![Screenshot](https://github.com/SurendraS26/dotfiles/raw/main/assets/pics/two.png)
+![Screenshot](https://github.com/SurendraS26/dotfiles/raw/main/assets/pics/one.png)
 
 ## Installation
 

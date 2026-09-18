@@ -8,7 +8,7 @@ local office      = "libreoffice"
 local snapshot    = 'grim -g "$(slurp -d)" - | wl-copy'
 local cropshot    = 'grim -g "$(slurp)" - | swappy -f -'
 local calculator  = 'foot qalc'
-local emoji       = 'emote'
+local emoji       = 'rofimoji'
 
 ---------------
 --- Desktop ---

@@ -12,8 +12,7 @@ hl.config({
 
         follow_mouse = 1,
 
-        sensitivity = 0, -- -1.0 - 1.0, 0 means no modification.
-
+        sensitivity = 0, 
         touchpad = {
             natural_scroll = false,
 	    disable_while_typing = true,
@@ -31,6 +30,10 @@ hl.gesture({
     action = "workspace"
 })
 
+-------------------------------
+--- Volume Control Gestures ---
+-------------------------------
+
 hl.gesture({
     fingers = 4,
     direction = "up",
@@ -47,6 +50,9 @@ hl.gesture({
     end
 })
 
+------------------------------
+--- Media Control Gestures ---
+------------------------------
 
 hl.gesture({
     fingers = 4,
@@ -64,6 +70,10 @@ hl.gesture({
     end
 })
 
+
+---------------------------
+--- Brightness Gestures ---
+---------------------------
 
 hl.gesture({
     fingers = 3,

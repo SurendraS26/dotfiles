@@ -91,6 +91,11 @@ chmod +x backup-files.sh
 
 To switch themes, replace the contents of `hypr/hyprtoolkit.conf` with the values for the theme you want.
 
+## Contributing
+
+This is a my personal dotfiles repo, but issues and suggestions are welcome via [GitHub Issues](https://github.com/SurendraS26/dotfiles/issues).
+
+
 ## License
 ```
 Creative Commons Legal Code
@@ -213,9 +218,7 @@ express Statement of Purpose.
     Work.
  d. Affirmer understands and acknowledges that Creative Commons is not a
     party to this document and has no duty or obligation with respect to
-    this CC0 or use of the Work.```
+    this CC0 or use of the Work.
+```
 
-## Contributing
-
-This is a my personal dotfiles repo, but issues and suggestions are welcome via [GitHub Issues](https://github.com/SurendraS26/dotfiles/issues).
 

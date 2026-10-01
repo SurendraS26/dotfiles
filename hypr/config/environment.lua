@@ -52,4 +52,4 @@ hl.env("QT_AUTO_SCREEN_SCALE_FACTOR", "1")
 ------------------------------
 --- Terminal Color Support ---
 ------------------------------
-hl.env("TERM","xterm-256color")
+--hl.env("TERM","xterm-256color")

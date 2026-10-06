@@ -1,5 +1,5 @@
 -- App binding's
-local terminal    = "foot --term=xterm-256color"
+local terminal    = "foot"
 local fileManager = "pcmanfm"
 local menu        = "rofi -show"
 local web         = "chromium"

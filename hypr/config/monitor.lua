@@ -12,10 +12,11 @@ hl.monitor({
 --------------------------------
 --- External monitor/display ---
 --------------------------------
+
 -- DELL IN2030M
 hl.monitor({
     output   = "HDMI-A-5",
-    mode     = "preferred",
+    mode     = "1600x900@60",
     position = "auto-left",
     scale    = "0.67",
 --    mirror   = "eDP-1",   

@@ -6,7 +6,7 @@ hl.monitor({
     output   = "eDP-1",
     mode     = "1920x1080@144",
     position = "auto",
-    scale    = "1",
+    scale    = "auto",
 })
 
 --------------------------------
@@ -14,10 +14,10 @@ hl.monitor({
 --------------------------------
 
 -- DELL IN2030M
-hl.monitor({
-    output   = "HDMI-A-5",
-    mode     = "1600x900@60",
-    position = "auto-left",
-    scale    = "0.67",
---    mirror   = "eDP-1",   
-})
+-- hl.monitor({
+--  output   = "HDMI-A-5",
+--  mode     = "1600x900@60",
+--  position = "auto-left",
+--  scale    = "0.83",
+--  mirror   = "eDP-1",   
+--})

@@ -30,7 +30,7 @@ hl.config({
 
         col = {
             active_border   = { colors = { cyan , green }, angle = 45 },
-            inactive_border = grey,
+            inactive_border = { colors = { black , blue }, angle = 45 },
         },
 
         resize_on_border = true,

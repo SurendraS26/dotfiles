@@ -9,10 +9,8 @@ hl.env("XDG_SESSION_DESKTOP", "Hyprland")
 -----------------------------
 --- Cursor customizations ---
 -----------------------------
-hl.env("XCURSOR_THEME","")
-hl.env("XCURSOR_SIZE", "24")
 hl.env("HYPRCURSOR_SIZE", "24")
-
+hl.env("HYPRCURSOR_THEME","hyprcursor_logo")
 
 -----------------
 --- GTK Theme ---

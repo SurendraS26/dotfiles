@@ -32,7 +32,7 @@ Key Bindings
 `SUPER` key play's an important role in my dotfiles, get your super key fixed if it's not working!!
 > **`In window's laptop it is usually the window key!!`**
 
-**For applications** - **`SUPER`** + **`{char}`**
+**Applications** - **`SUPER`** + **`{char}`**
 
 **`Q`** - Terminal
 
@@ -48,7 +48,7 @@ Key Bindings
 
 ---
 
-**For Tools**
+**Tools**
 
 **`F12`** - Calculator
 
@@ -56,7 +56,7 @@ Key Bindings
 
 ---
 
-**For Window Management** - **`SUPER`** + **`{char}`**
+**Window Management** - **`SUPER`** + **`{char}`**
 
 **`C`** - Close
 
@@ -78,13 +78,13 @@ Key Bindings
 
 ---
 
-**For Advanced Multitasking** - **`SUPER`** + **`{char}/{controls}/{mouse}`**
+**Advanced Multitasking** - **`SUPER`** + **`{char}/{controls}/{mouse}`**
 
-**`←/→/↑/↓`** - Move Focus in Direction
+**`ARROW`** - Move Focus in Direction
 
-**`SHIFT`** + **`←/→/↑/↓`** - Move Window in Direction
+**`SHIFT`** + **`ARROW`** - Move Window in Direction
 
-**`ALT`** + **`←/→/↑/↓`** - Resize Window
+**`ALT`** + **`ARROW`** - Resize Window
 
 **`Tab`** - Cycle between window's
 
@@ -92,27 +92,38 @@ Key Bindings
 
 **`left-click`** - Resize Window with Mouse
 
+> **`ARROW = action(up/down/left/right)`**
 
+---
 
-Workspaces
-----------
-```
- `SUPER + 0-9` - Switch to workspace `0-9` 
- `SUPER + SHIFT + 0-9` - Move window to workspace `0-9` 
- `SUPER + S` - Toggle special workspace `magic` 
- `SUPER + SHIFT + S` - Move window to special workspace `magic` 
- `SUPER + mouse wheel` - Switch workspace 
-```
+**Workspaces** - **`SUPER`** + **`{char}/{numbers}/{controls}/{mouse}`**
 
-Media & system keys
+**`S`** - Magic Workspace
+
+**`SHIFT`** +  **`S`** - Move Window to Magic Workspace
+
+**`0-9`** - Switch between Workspace
+
+**`SHIFT`** + **`0-9`** - Move Window to Workspace `0-9`
+
+**`mouse-wheel`** - Switch Workspace through Scroll Wheel
+
+---
+
+**System Keys**
 -------------------
-```
-| `XF86AudioRaiseVolume` / `XF86AudioLowerVolume` | Volume up/down (5%) |
-| `XF86AudioMute` / `XF86AudioMicMute` | Mute speaker/mic |
-| `XF86MonBrightnessUp` / `XF86MonBrightnessDown` | Brightness up/down (5%) |
-| `XF86AudioNext` / `XF86AudioPrev` | Next/previous track |
-| `XF86AudioPlay` / `XF86AudioPause` | Play/pause |
-```
+
+`` - Volume up
+`` - Volume Down
+
+
+`` - Brightness Up
+`` - Brightness Down
+
+`` - Play/Pause
+`` - Audio Next
+`` - Audio Previous
+
 
 Touchpad gestures
 -----------------

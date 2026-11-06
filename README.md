@@ -9,60 +9,90 @@ Installation
 Just clone the repo and run the script to install my dotfiles.
 
 ```bash
-git clone https://github.com/SurendraS26/dotfiles.git
-cd dotfiles
-chmod +x install-files.sh
-./install-files.sh
+> git clone https://github.com/SurendraS26/dotfiles.git
+> cd dotfiles
+> chmod +x install-files.sh
+> ./install-files.sh
 ```
 
 Backing up my own configs
 -------------------------
 
-This script Creates a backup my dotfiles so that you can test it by doing changes.
+Backup script creates a backup of my dotfiles, so you can test by **`tinkering`** it.
 
 ```bash
-chmod +x backup-files.sh
-./backup-files.sh
+> chmod +x backup-files.sh
+> ./backup-files.sh
 ```
-> Note: This script does not backup your configs and files.
+> **`This script does not backup your configs and files.`**
 
 Key Bindings
-----------------
+------------
 
-**App*
+`SUPER` key play's an important role in my dotfiles, get your super key fixed if it's not working!!
+> **`In window's laptop it is usually the window key!!`**
+
+**For applications** - **`SUPER`** + **`{char}`**
+
+**`Q`** - Terminal
+
+**`E`** - Explorer
+
+**`R`** - Rofi App Launcher
+
+**`W`** - Web Browser
+
+**`O`** - Office suite
+
+**`T`** - Rofi Emoji Picker
+
+---
+
+**For Tools**
+
+**`F12`** - Calculator
+
+**`PrtSc`** - Prints Screen
+
+---
+
+**For Window Management** - **`SUPER`** + **`{char}`**
+
+**`C`** - Close
+
+**`F`** - Toggle Fullscreen
+
+**`V`** - Toggle Floating
+
+**`P`** - Pseudo Tile
+
+**`J`** - Toggle Split
+
+**`Z`** - Grab
+
+**`G`** - Group
+
+**`L`** - Lock Screen
+
+**`M`** - Shutdown Hyprland
+
+---
+
+**For Advanced Multitasking** - **`SUPER`** + **`{char}/{controls}/{mouse}`**
+
+**`←/→/↑/↓`** - Move Focus in Direction
+
+**`SHIFT`** + **`←/→/↑/↓`** - Move Window in Direction
+
+**`ALT`** + **`←/→/↑/↓`** - Resize Window
+
+**`Tab`** - Cycle between window's
+
+**`right-click`** - Drag Window with Mouse
+
+**`left-click`** - Resize Window with Mouse
 
 
-```
- `SUPER + Q` -  Open terminal (`foot`) |
- `SUPER + E` -  Open file manager (`pcmanfm`) |
- `SUPER + R` -  Open app launcher (`rofi -show`) |
- `SUPER + W` -  Open web browser (`chromium`) |
- `SUPER + O` -  Open office suite (`libreoffice`) |
- `SUPER + T` -  Open emoji picker (`emote`) |
- `F12`       -  Open calculator (`foot qalc`) |
- `Print`     -  Screenshot region → clipboard (`grim` + `slurp` + `wl-copy`) |
-```
-
-Window management
------------------
-
-```
- `SUPER + C` -  Close focused window 
- `SUPER + F` -  Toggle fullscreen 
- `SUPER + V` - Toggle floating 
- `SUPER + P` -  Pseudo-tile window 
- `SUPER + J` -  Toggle split 
- `SUPER + Z` -  Grab/drag window 
- `SUPER + G` -  Toggle window group 
- `SUPER + L` -  Lock screen (`hyprlock`) 
- `SUPER + M` - Shutdown Hyprland session 
- `SUPER + Tab` -  Cycle to next window and bring to top 
- `SUPER + ←/→/↑/↓` -  Move focus in that direction 
- `SUPER + SHIFT + ←/→/↑/↓` -  Move window in that direction 
- `SUPER + ALT + ←/→/↑/↓` -  Resize window 
- `SUPER + mouse:272` -  Drag window with mouse 
- `SUPER + mouse:273` -  Resize window with mouse 
-```
 
 Workspaces
 ----------

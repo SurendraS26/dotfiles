@@ -2,7 +2,6 @@
 
 A simple beginner edition dotfiles for hyprland.
 
-![Screenshot](https://github.com/SurendraS26/dotfiles/raw/main/assets/pics/one.png)
 
 ## Installation
 
@@ -18,6 +17,7 @@ chmod +x install-files.sh
 chmod +x backup-files.sh
 ./backup-files.sh
 ```
+
 ### Apps & shortcuts
 ```
  `SUPER + Q` -  Open terminal (`foot`) |
@@ -29,6 +29,7 @@ chmod +x backup-files.sh
  `F12`       -  Open calculator (`foot qalc`) |
  `Print`     -  Screenshot region → clipboard (`grim` + `slurp` + `wl-copy`) |
 ```
+
 ### Window management
 ```
  `SUPER + C` -  Close focused window 
@@ -47,6 +48,7 @@ chmod +x backup-files.sh
  `SUPER + mouse:272` -  Drag window with mouse 
  `SUPER + mouse:273` -  Resize window with mouse 
 ```
+
 ### Workspaces
 ```
  `SUPER + 0-9` - Switch to workspace `0-9` 
@@ -55,6 +57,7 @@ chmod +x backup-files.sh
  `SUPER + SHIFT + S` - Move window to special workspace `magic` 
  `SUPER + mouse wheel` - Switch workspace 
 ```
+
 ### Media & system keys
 ```
 | `XF86AudioRaiseVolume` / `XF86AudioLowerVolume` | Volume up/down (5%) |
@@ -63,6 +66,7 @@ chmod +x backup-files.sh
 | `XF86AudioNext` / `XF86AudioPrev` | Next/previous track |
 | `XF86AudioPlay` / `XF86AudioPause` | Play/pause |
 ```
+
 ### Touchpad gestures
 
 | Gesture | Action |
@@ -71,6 +75,7 @@ chmod +x backup-files.sh
 | 3-finger swipe up/down | Brightness up/down |
 | 4-finger swipe up/down | Volume up/down |
 | 4-finger swipe left/right | Previous/next track |
+
 
 ## Hyprtoolkit color themes
 
@@ -90,6 +95,7 @@ chmod +x backup-files.sh
 | Yellow | `#2d2d15` | `#FFD600` | `#FFD700` |
 
 To switch themes, replace the contents of `hypr/hyprtoolkit.conf` with the values for the theme you want.
+
 
 ## Contributing
 

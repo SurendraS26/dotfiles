@@ -125,7 +125,6 @@ Key Bindings
 ---
 
 **Touchpad gestures**
-> **`f is fingers`**
 
 **`3-finger, swipe, horizontal`**  - Switch Workspace
 

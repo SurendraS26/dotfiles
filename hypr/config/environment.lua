@@ -15,7 +15,7 @@ hl.env("HYPRCURSOR_THEME","hyprcursor_logo")
 -----------------
 --- GTK Theme ---
 -----------------
-hl.env("GTK_THEME","Flat-Remix-GTK-Cyan-Darkest")
+hl.env("GTK_THEME","Flat-Remix-GTK-Violet-Darkest")
 
 
 -----------------------

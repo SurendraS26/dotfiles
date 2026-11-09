@@ -29,7 +29,7 @@ hl.config({
         border_size = 3,
 
         col = {
-            active_border   = { colors = { cyan , green }, angle = 45 },
+            active_border   = { colors = { violet , magenta }, angle = 45 },
             inactive_border = grey, 
         },
 

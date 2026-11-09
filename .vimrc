@@ -12,5 +12,5 @@ set showcmd
 set wildmenu
 set splitbelow
 set splitright
-colorscheme torte
+colorscheme habamax
 

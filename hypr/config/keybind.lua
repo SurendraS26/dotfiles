@@ -7,6 +7,7 @@ local lock        = "hyprlock"
 local office      = "libreoffice"
 local snapshot    = 'grim -g "$(slurp -d)" - | wl-copy'
 local cropshot    = 'grim -g "$(slurp)" - | swappy -f -'
+local screenshot  = 'grim -t png - | wl-copy' 
 local calculator  = 'foot qalc'
 local emoji       = 'rofi -show emoji'
 

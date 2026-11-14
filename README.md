@@ -59,7 +59,11 @@ Key Bindings
 
 **`F12`** - Calculator
 
-**`PrtSc`** - Prints Screen
+**`Print`** - Cropshot
+
+**`SHIFT + Print`** - Snapshot
+
+**`SUPER + Print`** - Screenshot
 
 ---
 

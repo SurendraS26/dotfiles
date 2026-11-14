@@ -43,11 +43,13 @@ hl.bind(mainMod .. " + Z", hl.dsp.window.drag())
 hl.bind(mainMod .. " + L", hl.dsp.exec_cmd(lock))
 
 -- Cropshot
-hl.bind(mainMod .. " + Print",hl.dsp.exec_cmd(cropshot))
+hl.bind("Print",hl.dsp.exec_cmd(cropshot))
 
 -- Snapshot
-hl.bind("Print", hl.dsp.exec_cmd(snapshot))
+hl.bind("SHIFT + Print", hl.dsp.exec_cmd(snapshot))
 
+-- Screenshot
+hl.bind(mainMod .. " + Print",hl.dsp.exec_cmd(screenshot))
 ---------------
 -- Shortcut ---
 ---------------

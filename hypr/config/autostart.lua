@@ -9,5 +9,7 @@ hl.exec_cmd("systemctl --user start hyprpolkitagent")
 hl.exec_cmd("awww-daemon")
 -- Terminal Color Support
 hl.exec_cmd("declare -x TERM='xterm-256color'")
+-- Security is important !!
+hl.exec_cmd("hyprlock")
 end)
 

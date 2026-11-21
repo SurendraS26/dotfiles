@@ -19,7 +19,7 @@
 configuration {
     modi: "drun";
     show-icons: true;
-    icon-theme: "Flat-Remix-Cyan-Dark";
+    icon-theme: "Flat-Remix-Violet-Dark";
     display-drun: "";
 }
 
@@ -34,7 +34,7 @@ listview {
 }
 
 window {
-    transparency: "real";
+  /*  transparency: "real";*/
     width: 450px;
     border-radius: @b-radius;
     background-color: @wbg-color;
